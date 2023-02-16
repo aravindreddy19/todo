@@ -1,7 +1,7 @@
 
 import { TodoistApi } from "@doist/todoist-api-typescript";
 
-const todoist = new TodoistApi("388425931e022b5172a1dd54df1316b9f45b2f95");
+const todoist = new TodoistApi("api_key_here");
 
 export const getTasks = async () => {
   const tasks = await todoist.getTasks();
